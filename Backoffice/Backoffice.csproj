@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="5.1.2" />
+    <PackageReference Include="Microsoft.OpenApi" Version="1.6.10" />
+    <PackageReference Include="Swashbuckle" Version="5.6.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="RabbitMqServiceMCGA">
+      <HintPath>..\Microservicios ServiceBus - Documentados\MCGA TP FINAL MICROSERVICIOS\RabbitMQService\MessagingBroker\RabbitMqService\bin\Debug\net6.0\RabbitMqServiceMCGA.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
